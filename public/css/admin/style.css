@@ -1,0 +1,123 @@
+/*** Custom Styles ***/
+body {
+	font-size: 0.92rem;
+}
+.form-control {
+	font-size: 0.92rem;
+}
+.table td, .table th {
+	padding: .3rem .5rem;
+	vertical-align: middle;
+	color: #222;
+}
+.table thead th {
+	vertical-align: middle;
+}
+.table-bordered thead td, .table-bordered thead th {
+	border-bottom-width: 1px;
+}
+table.dataTable td.dataTables_empty, table.dataTable th.dataTables_empty {
+	padding: 1rem;
+}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, 
+table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, 
+table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, 
+table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, 
+table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
+	bottom: 0.5em;
+}
+
+.main-header {
+	height: 40px;
+}
+.content-header {
+	padding: 10px .5rem;
+}
+.content-header h1 {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.btn-group-lg>.btn, .btn-lg {
+	font-size: 1.2rem;
+	padding: .4rem 1rem;
+	line-height: 1.2;
+}
+.action-wrap, .featured-wrap {
+	white-space: nowrap;
+}
+.nav-link {
+	padding: .4rem 1rem;
+}
+
+.main-sidebar, .main-sidebar::before {
+	width: 220px;
+}
+@media (min-width: 768px) {
+	body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+		margin-left: 220px;
+	}
+}
+.brand-link .brand-image-xs {
+	display: block;
+	visibility: hidden;
+}
+.brand-link .brand-image-xl {
+	max-height: 40px;
+}
+.logo-xs { 
+	visibility: visible; 
+	opacity: 1;
+	background-color: #fff;
+}
+
+.main-footer .modal {
+    color: #212529;
+}
+.required {
+    color:red;
+}
+.pdf-icons {
+	width:70px;	
+}
+
+a.table-view-btn, a.table-edit-btn, button.table-delete-btn{padding: 0px; color: #000000;background: unset;border-color: transparent!important;}
+a.table-view-btn:hover, a.table-edit-btn:hover, button.table-delete-btn:hover{color: #000000;background: unset;border-color: transparent!important;}
+a.table-view-btn:focus, a.table-edit-btn:focus, button.table-delete-btn:focus{background: transparent!important;border-color: transparent!important;}
+a.table-view-btn:active, a.table-edit-btn:active, button.table-delete-btn:active{background: transparent!important;border-color: transparent!important;}
+a.table-view-btn{color: #17a2b8;}
+a.table-edit-btn{color: #007bff;}
+button.table-delete-btn{color: #dc3545;}
+a.table-view-btn:active, a.table-view-btn:hover, a.table-view-btn:focus{color: #17a2b8;}
+a.table-edit-btn:active, a.table-edit-btn:hover, a.table-edit-btn:focus{color: #007bff;}
+button.table-delete-btn:active, button.table-delete-btn:hover, button.table-delete-btn:focus{color: #dc3545;}
+.admin-service-image{padding-bottom: 20px;}
+.action-wrap{width: 75px;}
+.approve_wrap{width: 120px;}
+.admin-add-equipment{padding-bottom: 20px;}
+.medical-view-btn{color: #17a2b8;}
+.medical-update-btn{color: #007bff;}
+.medical-delete-btn{color: #dc3545;}
+.hide{display: none;}
+.admin-equipment-close-btn{outline: unset!important;}
+span.error{color: #fe4444;font-size: 13px;font-weight: normal;}
+input[type="text"].error{border:1px solid #fe4444!important;}
+select.error{border:1px solid #fe4444!important;}
+.advance-search button{font-weight: normal;}
+.advanced-search-container{background: #ffffff;padding: 20px;margin-bottom: 30px;}
+.sub-label{font-weight: normal!important;}
+.filter-btn-section{margin-top: 15px;}
+.advanced-search-container input, .advanced-search-container select{height: 34px;}
+.service-ad-fbtn{margin-right: 15px;}
+#user_advance_search{margin: 0px;}
+#service_provider_advance_search{margin: 0px;}
+.export-btn{margin-right: 15px;border: 1px solid #dee2e6;background: white;font-weight: normal;}
+.export-btn a {color:green;}
+.admin-loader{position: absolute;left: 50%;top: 60%;z-index: 1;transform: translate(50%, 50%);}
+.admin-photo-delete{position: absolute;right: -4;top: -5;color: red;cursor: pointer;}
+.admin-photo-delete a{color: red;}
+.photo-container{margin-bottom: 15px;}
+.eqp-media-div {margin-bottom:20px; }
+.admin-equipment-photo-delete{position: absolute;right: -5;top:-10px;font-size: 18px;padding: 0px 10px;color: red;cursor: pointer;}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.service-export-btn{margin-top: 10px;}
+}

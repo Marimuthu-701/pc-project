@@ -1,0 +1,252 @@
+@media only screen   and (min-width: 1030px)   and (max-width: 1366px)  {
+	#home-service-detail .rating-starts .rating-count{padding-left: 15px;}
+	.myaccount-container .photo-delete-icon{padding: 0px;right: -15px;top: -10px;}
+}
+/*min-width 641px and max-width 1024px, use when QAing tablet-only issues*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.navbar-nav>li>a{
+	padding: 15px 8px;
+	font-size: 12px; 
+}
+.navbar-brand img{
+	max-width: 220px;
+}
+ul.login li a{
+	padding: 8px 15px;
+}
+.navbar-nav.navbar-right:last-child{
+	margin: 0;
+}
+#help{
+	padding: 30px 0;
+}
+.need-help{
+	padding: 20px;
+	border-radius: 15px;
+	margin-top: 30px;
+}
+.partner-register{
+	margin: 0;
+}
+#home-service-detail .detail-avator{width: 100%;}
+#how-it-works .steps-arrow{display: none;}
+#how-it-works .how-to-work-title{min-height: unset;}
+#home-service-detail #homeServiceCarousel .home-slide-image{width: 100%;max-height: 350px;height: 100%;min-width: 100px;}
+#home-service-detail #homeServiceCarousel.carousel{min-height: auto!important;}
+.myaccount-container .photo-delete-icon{right: -5px;top: -8px;}
+#myaccount-section .left-menu-container{margin-bottom: 15px;}
+}
+/*max-width 640px, mobile-only styles, use when QAing mobile issues*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+h3{
+	font-size: 28px;
+	line-height: 32px;
+}
+h4{
+	font-size: 24px;
+}
+.page-section{margin-top: -25px;}
+.carousel,
+.carousel-item,
+.inner-banner{
+    min-height: 310px;
+}
+.carousel-caption h1{
+	font-size: 15px;
+	line-height: 20px;
+}
+.carousel-caption p{
+	font-size: 16px;
+}
+.main_button a{
+	font-size: 16px;
+	padding: 8px 20px;
+}
+#how-it-works{
+	padding: 0px;
+}
+#search_for,
+#home-groups,
+#service-providers,
+#home-review,
+#testimonials,
+#homes-services,
+#help{
+	padding: 30px 0;
+}
+#how-it-works .page-title{
+	margin-bottom: 40px;
+}
+.card-body h4 {
+    margin: 15px auto;
+    line-height: 24px;
+}
+.card-text{
+	margin-bottom: 30px;
+}
+.page-title p{
+	font-size: 16px;
+}
+.search_section_inner .main_button{
+	text-align: center;
+	display: grid;
+}
+.search-more a{
+	float: none;
+}
+.search_section_inner{
+	padding: 15px;
+}
+.search_section_inner .main_button a{
+	padding: 5px 20px;
+}
+.home-group-list{
+	margin-top: 30px;
+}
+.services-list {
+    margin: 25px 0 0 0;
+}
+#home-review .page-title p {
+    font-size: 22px;
+    line-height: 10px;
+}
+#home-review .carousel-inner .item{
+	padding: 20px;
+}
+.review-inner h4{
+	font-size: 18px;
+}
+.review-inner{
+	padding: 25px 15px;
+}
+.partner-register{
+	padding: 0px;
+	margin: 0px;
+}
+.partner-register .page-title p {
+    line-height: 28px;
+    font-size: 22px;
+}
+.need-help{
+	padding: 20px;
+	border-radius: 15px;
+	margin-top: 30px;
+}
+.need-help .page-title p {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 15px 0;
+}
+#testimonials .page-title p{
+	font-size: 22px;
+}
+#footer{
+	padding-top: 20px;
+}
+.footer-inner ul li a, .footer-inner ul li a:hover{
+	font-size: 14px;
+}
+.footer-bottom p{
+	font-size: 12px;
+}
+.footer-bottom{
+	margin: 30px 0 0 0;
+}
+.footer-inner ul li a span {
+    color: #FFFFFF;
+    margin: 0 0px 0 4px;
+}
+.navbar-brand img{
+	max-width: 180px;
+}
+.navbar-brand{
+	padding: 16px 0px 15px 0px;
+}
+.navbar{
+	min-height: 70px;
+}
+.navbar-toggle{
+	padding: 19px 0px;
+}
+.navbar-toggle .icon-bar{
+	background: #005295;
+}
+/******************** Mobile Responsive Registration Botton *****************/
+.login{/* display: none; */}
+ul.login li{padding-bottom: 10px;}
+ul.login li a{line-height:30px;}
+ul.login li a.my-account-btn {line-height:30px;}
+/******************** End Mobile Responsive Registration Botton *************/
+
+.navbar-fixed-top .navbar-collapse{max-height: 370px;}
+.navbar-nav{
+	margin: 0;
+}
+.nav>li{
+	display: block;
+	text-align: center;
+}
+.form-control{
+	padding: 6px;
+	font-size: 13px;
+	height: 36px;
+}
+.form-group{
+	margin-bottom: 10px;
+}
+.carousel-caption{
+	padding: 10px;
+	top:80% !important;
+	border-radius:10px;
+}
+#banner{
+	padding: 0px;
+}
+#logout_box{min-width: 300px;}
+#services-list{margin-top: 45px;}
+#home-service-detail{margin-top: 28px;}
+#partner-register.contact-form-page {margin-top: 100px;}
+#partner-register{margin-top: -28px;}
+#partner-home-banner .partner-page-title p {font-size: 16px;}
+#partner-home-banner .partner-page-title h1{font-size: 25px;}
+#search-container{margin-top: -28px;}
+.my-account-right-panel, .search-result-right-panel{margin-top: 20px;}
+.home-service-detail .lable-icon {margin: 10px auto;}
+#services-list .services-vl{display: none;}
+.detail-title-rent{padding: 10px 5px;}
+#services-list .vl{display: none;}
+#services-list .service-img {width: 250px;height: 250px;}
+#search-section .right-search-result-panel .address-detail{padding: 0px 20px;}
+.main-container .footer-page-container{margin-top: 60px;}
+.main-container .footer-page-container .page-title{line-height: 35px;}
+.main-container #about-as-banner{margin-top: 45px;}
+.main-container #about-as-content .about-us-detail .about-us-people{margin-bottom: 20px;}
+.main-container #about-as-content .about-us-detail .card-body{max-height: 400px;min-height: 400px;padding: 20px}
+.main-container #about-as-content .about-us-detail .icon-wrapper a::after{top: 41%;}
+.main-container #about-as-content .our-mission-vision .our-vision, .our-mission{border-left: unset;}
+.main-container #about-as-content .our-mission-vision .our-vision::after, .our-mission::after{display: none;}
+.main-container #about-as-content .our-mission-vision .our-vision::before, .our-mission::before{display: none;}
+#help .partner-register .help-register-content .contact-left-panel{transform: translate(-50%, 10%);}
+#my-account .change-mobile-number{line-height: unset;}
+#my-account .mobile-change-div{bottom: 0;}
+.testimonial-feedback .rating-div{max-width: 50%;}
+#login-popup .reser-password-btn {text-align: left;}
+#login-popup #verify-otp-form .verify-otp-head{line-height: 30px;}
+.add-testimonial{bottom: -20px;}
+#how-it-works .steps-arrow{display: none;}
+#how-it-works .how-to-work-title{min-height: unset;}
+#home-service-detail #homeServiceCarousel .home-slide-image{width: 100%;max-height: 350px;height: 100px;min-height: 100px;}
+#home-service-detail #homeServiceCarousel.carousel{min-height: auto!important;}
+.myaccount-container .account-delete-container .delete-btn-section{position: unset;bottom: 0;margin:10px 0px;text-align: left!important;}
+#home-service-detail .detail-avator{width: 100%;}
+#home-service-detail .detail-image-gallery{width: 100%;}
+#home-service-detail .home-service-detail {margin: 60px 0px 50px 0px}
+.myaccount-container .photo-delete-icon {right: -15px;top:-10px;}
+#carouselExampleIndicators .carousel-inner .item {background-size: contain;background-repeat: no-repeat;}
+}
+
+@media only screen and (max-width: 640px) and (orientation: portrait) {
+    #how-it-works {padding: 0px;}
+    #carouselExampleIndicators .carousel-inner .carousel-caption {top: 80% !important;max-width:500px;border-radius:20px;}
+    .carousel, .carousel-item, .inner-banner{ min-height: 260px;}
+}
